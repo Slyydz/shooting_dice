@@ -25,6 +25,13 @@ namespace ShootingDice
 
             Console.WriteLine("-------------------");
 
+            SmackTalkingPlayer player4 = new SmackTalkingPlayer();
+            player4.Name = "Brady";
+
+            player4.Play(player2);
+
+            Console.WriteLine("-------------------");
+
             Player large = new LargeDicePlayer();
             large.Name = "Bigun Rollsalot";
 
