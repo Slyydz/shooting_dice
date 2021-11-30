@@ -63,7 +63,7 @@ namespace ShootingDice
             player7.Play(player2);
 
             Console.WriteLine("-------------------");
-            Number 5
+            //Number 5
             SoreLoserPlayer player8 = new SoreLoserPlayer();
             player8.Name = "KT";
             player8.Play(player5);
