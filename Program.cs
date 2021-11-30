@@ -51,6 +51,12 @@ namespace ShootingDice
             player5.Name = "Colby";
             player5.Play(player4);
 
+            Console.WriteLine("-------------------");
+
+            HumanPlayer player6 = new HumanPlayer();
+            player6.Name = "Josh";
+            player6.Play(player3);
+
         }
 
         static void PlayMany(List<Player> players)
