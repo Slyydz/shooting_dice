@@ -39,35 +39,40 @@ namespace ShootingDice
             PlayMany(players);
 
             Console.WriteLine("-------------------");
-
+            //Number 1
             SmackTalkingPlayer player4 = new SmackTalkingPlayer();
-            player4.Name = "Katie";
-
+            player4.Name = "Josh";
             player4.Play(player2);
 
             Console.WriteLine("-------------------");
-
+            //Number 2
             OneHigherPlayer player5 = new OneHigherPlayer();
             player5.Name = "Colby";
             player5.Play(player4);
 
             Console.WriteLine("-------------------");
-
+            //Number 3
             HumanPlayer player6 = new HumanPlayer();
-            player6.Name = "Josh";
+            player6.Name = "Jawsh";
             player6.Play(player3);
 
             Console.WriteLine("-------------------");
-
+            //Number 4
             CreativeSmackTalkingPlayer player7 = new CreativeSmackTalkingPlayer();
             player7.Name = "Coby";
             player7.Play(player2);
 
-            Console.WriteLine("-------------------");
+            // Console.WriteLine("-------------------");
+            //Number 5
+            // SoreLoserPlayer player8 = new SoreLoserPlayer();
+            // player8.Name = "KT";
+            // player8.Play(player5);
 
-            SoreLoserPlayer player8 = new SoreLoserPlayer();
-            player8.Name = "KT";
-            player8.Play(player5);
+            Console.WriteLine("-------------------");
+            //Number 6
+            UpperHalfPlayer player9 = new UpperHalfPlayer();
+            player9.Name = "Name of Player";
+            player9.Play(player5);
 
         }
 
