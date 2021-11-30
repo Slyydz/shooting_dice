@@ -62,17 +62,23 @@ namespace ShootingDice
             player7.Name = "Coby";
             player7.Play(player2);
 
-            // Console.WriteLine("-------------------");
-            //Number 5
-            // SoreLoserPlayer player8 = new SoreLoserPlayer();
-            // player8.Name = "KT";
-            // player8.Play(player5);
+            Console.WriteLine("-------------------");
+            Number 5
+            SoreLoserPlayer player8 = new SoreLoserPlayer();
+            player8.Name = "KT";
+            player8.Play(player5);
 
             Console.WriteLine("-------------------");
             //Number 6
             UpperHalfPlayer player9 = new UpperHalfPlayer();
-            player9.Name = "Name of Player";
+            player9.Name = "Yeshua";
             player9.Play(player5);
+
+            Console.WriteLine("-------------------");
+            //Number 7
+            SoreLoserUpperHalfPlayer player10 = new SoreLoserUpperHalfPlayer();
+            player10.Name = "Bwady";
+            player10.Play(player5);
 
         }
 
